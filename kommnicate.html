@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shape{
+            margin-left: 50px;
+            margin-top: 50px;
+            border-left: 3px solid black;
+            height: 200px;
+            border-top: 2px solid green;
+            /* height: 300px; */
+            border-bottom: 2px solid green;
+            width: 500px;
+            
+            
+        }
+        #right{
+            border-right: 3px solid green;
+            height: 200px;
+            border-radius: 80px;
+            position: relative;
+            left: 70px;
+        }
+       
+        .shape2{
+            margin-right: 50px;
+            border-right: 3px solid lightblue;
+            height: 100px;
+            border-top: 2px solid lightblue;
+            /* height: 300px; */
+            border-bottom: 2px solid lightblue;
+            width: 350px;
+            position: relative;
+            bottom: 150px;
+            left: 500px;
+            background-color: lightblue;
+            overflow:visible;
+        }
+
+        #left{
+            border-left: 3px solid lightblue;
+            border-radius: 50px;
+            height: 115px;
+            position: relative;
+            right: 30px;
+            bottom: 10px;
+            background-color: lightblue;
+        }
+       
+        .container{
+            position: relative;
+            bottom: 300px;
+            left: 70px;
+        }
+        #b1{
+            height: 36px;
+            width: 100px;
+            background-color: #2dd35c;
+            color: white;
+            border: white;
+            border-radius: 30px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        #b2{
+            height: 36px;
+            width: 100px;
+            background-color: white;
+            color: blue;
+            border: 1px solid black;
+            border-radius: 30px;
+            position: relative;
+            left: 5px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="shape">
+        <div id="right"></div>
+    </div>
+    <div class="shape2">
+        <div id="left"></div>
+    </div>
+    <div class="container">
+        <h1>Ready to Automate your</h1>
+        <h1 style="color: #5553B7;">E-commerce store?</h1>
+        <button id="b1">Try for free</button>
+        <button id="b2">Book a demo</button>
+    </div>
+</body>
+</html>
